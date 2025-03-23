@@ -1,0 +1,63 @@
+{
+	"name": "dataworkspace444_datapool_poolactivitylog",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "dataworkspace444",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "correlationid",
+				"type": "varchar"
+			},
+			{
+				"name": "operationname",
+				"type": "varchar"
+			},
+			{
+				"name": "status",
+				"type": "varchar"
+			},
+			{
+				"name": "eventcategory",
+				"type": "varchar"
+			},
+			{
+				"name": "level",
+				"type": "varchar"
+			},
+			{
+				"name": "time",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "subscription",
+				"type": "varchar"
+			},
+			{
+				"name": "eventinitiatedby",
+				"type": "varchar"
+			},
+			{
+				"name": "resourcetype",
+				"type": "varchar"
+			},
+			{
+				"name": "resourcegroup",
+				"type": "varchar"
+			},
+			{
+				"name": "resource",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "poolactivitylog"
+		}
+	}
+}
