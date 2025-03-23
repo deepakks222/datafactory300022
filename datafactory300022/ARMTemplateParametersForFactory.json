@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory300022"
+		},
+		"datafactory300022_accountKey": {
+			"value": ""
+		},
+		"dataworkspace444_password": {
+			"value": ""
+		},
+		"datafactory300022_properties_typeProperties_url": {
+			"value": "https://datalake400000.dfs.core.windows.net/"
+		},
+		"dataworkspace444_properties_typeProperties_server": {
+			"value": "dataworkspace444.sql.azuresynapse.net"
+		},
+		"dataworkspace444_properties_typeProperties_database": {
+			"value": "datapool"
+		},
+		"dataworkspace444_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		}
+	}
+}
